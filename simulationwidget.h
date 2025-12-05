@@ -4,8 +4,8 @@
 #include <QOpenGLWidget>
 #include <QOpenGLFunctions>
 #include <QOpenGLShaderProgram>
-#include <QOpenGLBuffer>            // <--- Добавлено
-#include <QOpenGLVertexArrayObject> // <--- Добавлено
+#include <QOpenGLBuffer>
+#include <QOpenGLVertexArrayObject>
 #include <QTimer>
 #include <vector>
 #include "quadtree.h"
@@ -28,18 +28,19 @@ private:
   QTimer m_timer;
   std::vector<Particle> m_particles;
 
-  // Объекты для правильной работы с памятью видеокарты
+         // GPU Memory Objects
   QOpenGLVertexArrayObject m_vao;
   QOpenGLBuffer m_vbo;
 
-  const int N_PARTICLES = 4000; // Можно увеличить число частиц
+         // Simulation Constants
+  const int N_PARTICLES = 4000;
   const float G_CONST = 0.5f;
   const float THETA = 0.5f;
   const float EPSILON = 0.05f;
-  const float DT = 0.005f; // Уменьшил шаг времени для плавности
+  const float DT = 0.005f;
 
   void initGalaxy();
   void stepPhysics();
 };
 
-#endif
+#endif // SIMULATIONWIDGET_H

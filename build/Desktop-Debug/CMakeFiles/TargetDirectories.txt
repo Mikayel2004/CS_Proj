@@ -1,5 +1,0 @@
-/home/mikayel/GalaxySim/build/Desktop-Debug/CMakeFiles/GalaxySim.dir
-/home/mikayel/GalaxySim/build/Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/mikayel/GalaxySim/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/mikayel/GalaxySim/build/Desktop-Debug/CMakeFiles/GalaxySim_autogen_timestamp_deps.dir
-/home/mikayel/GalaxySim/build/Desktop-Debug/CMakeFiles/GalaxySim_autogen.dir
